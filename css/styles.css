@@ -1,0 +1,148 @@
+/* Color Palette
+Dark Purple  #312E81
+Purple       #6366F1
+Light Purple #E0E7FF
+Light Gray   #F3F4F6
+Dark Gray    #1F2937
+White        #FFFFFF
+*/
+
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after { 
+    box-sizing: inherit;
+}
+
+nav {
+    background: #6366F1;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    left: 0;
+}
+
+nav a {
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+/* Global styles 
+------------------------------------*/
+body{
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 450;
+    font-style: normal;
+    margin: 0;
+}
+
+/*newly added for hw7*/
+.content-wrap {
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 50px;
+    overflow: hidden;
+}
+
+.column-narrow {
+    width: 30%;
+    float: left;
+    padding-right: 3%;
+    min-height: 175px;
+}
+
+.column-wide {
+    width: 70%;
+    float: left;
+    min-height: 225px;
+}
+
+.outfit-normalText {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 450;
+  font-style: normal;
+}
+
+.merriweather-heading {
+  font-family: "Merriweather", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+h1{font-size: 2.5rem;}
+h2{font-size: 2rem;
+    margin-top: 0;
+}
+h1, h2, h3 {
+    font-family: "Merriweather", serif;
+}
+h1, h2{
+    margin: 0;
+}
+
+.contact-info a{
+    padding: 10px;
+    display: inline-block;
+}
+.image-bg{
+    background-image: url("../images/plant_tech.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.alpha-bg{
+    background-color: rgba(243, 244, 246, 0.8);
+}
+    
+
+/* Header & Footer 
+------------------------------------*/
+header, footer {
+    background: #312E81;
+    color: #FFFFFF;
+}
+header{
+    padding-top: 50px;
+}
+footer{
+    text-align: center;
+}
+footer a{
+    color:#F3F4F6;
+
+    /*not explicitly mentioned, but added for visibility*/
+    margin: 0 10px;
+}
+
+.profile-img{
+    /*width: 300px;
+    float: left;
+    margin-right: 30px;*/
+    border-radius:50%;
+}
+
+/* Work Experience
+------------------------------------*/
+.work-experience {
+    background:#F3F4F6;
+    scroll-margin-top: 50px;
+}
+
+
+/* Education
+------------------------------------*/
+.education {
+    background:#E0E7FF;
+    scroll-margin-top: 50px;
+}
